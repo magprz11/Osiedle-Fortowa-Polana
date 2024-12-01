@@ -1,0 +1,55 @@
+html, body, #map {
+	width: 100%;
+	height: 100%;
+	margin:0;
+	padding:0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0;
+	height: 100vh;
+	}
+
+	#tytul{
+		position: absolute;
+		margin-left: 60px;
+		margin-top: 10px;
+		width: 93%;
+		max-width: 2000px;
+		height: 45px;
+		background: white;
+		background: rgba(255,255,255,0.8);
+		box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		border-radius: 5px;
+		z-index: 1001;
+		text-align:center;
+		line-height:45px;
+		font-size: 20px;
+		font-family: Georgia;
+		}
+
+	
+.info {
+    position: absolute; 
+    top: 100px; 
+	right: 100px;
+	padding: 10px 8px;
+    font: 14px/16px Georgia, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+	}
+	.info h3 {
+    margin: 0 0 5px;
+    color: #777777;
+	}
+	
+	
+	table{
+		width: 300px;
+		border: 1px solid black;}
+    td{ border: 1px solid black;
+		padding: 5px;
+		text-align: center;}
